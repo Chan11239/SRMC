@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SRMC</string>
+    <!--
+    Font family: STIX Two Text
+    Line height: 25sp
+    -->
+    <style name="welcome_to_">
+        <item name="android:fontFamily">@font/stixtwotext_italic</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#A3001C</item>
+    </style>
+    <string name="welcome_to_">
+        Welcome to Sto.Rosario \nMulti-specialty Clinic!
+    </string>
+    <!-- styles.xml -->
+    <style name="nurturing_h">
+        <item name="android:fontFamily">@font/texturina</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#A3001C</item>
+    </style>
+
+    <!-- strings.xml -->
+    <string name="nurturing_h">
+        "Nurturing Health, Empowering Lives"
+    </string>
+    <style name="get_started">
+        <item name="android:fontFamily">@font/stixtwotext_italic</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#A3001C</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="get_started">
+            Get Started
+        </string>
+</resources>
