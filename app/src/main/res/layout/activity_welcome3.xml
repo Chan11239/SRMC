@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/welcome"
     android:layout_width="409dp"
     android:layout_height="800dp"
-    android:background="#FFFFFF"
-    android:clipToOutline="true">
+    android:clipToOutline="true"
+    android:background="#FFFFFF">
 
     <View
         android:id="@+id/ellipse_1"
@@ -28,24 +29,62 @@
 
     <View
         android:id="@+id/logo_white"
-        android:layout_width="287dp"
-        android:layout_height="345dp"
-        android:layout_alignParentStart="true"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="204dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="26dp"
-        android:background="@drawable/logo_white" />
-    <!-- Auto layout, variables, and unit scale are not yet supported -->
-    <View
-        android:id="@+id/image_1"
-        android:layout_width="341dp"
-        android:layout_height="190dp"
-        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/logo_white"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_9"
+        android:layout_width="100dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="288dp"
-        android:background="@drawable/image_1" />
-    <!-- Auto layout, variables, and unit scale are not yet supported -->
+        android:layout_marginTop="191dp"
+        android:clipToOutline="true"
+        android:background="#AA6E76">
+
+        <TextView
+            android:id="@+id/faqs"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="6dp"
+            android:text="@string/faqs"
+            android:textAppearance="@style/faqs"
+            android:gravity="top"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_9"
+        android:layout_width="478dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:clipToOutline="true">
+
+        <TextView
+            android:id="@+id/the_sto_ros"
+            android:layout_width="314dp"
+            android:layout_height="165dp"
+            android:text="@string/the_sto_ros"
+            android:textAppearance="@style/the_sto_ros"
+            android:gravity="top"
+            />
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/welcome_to_"
         android:layout_width="217dp"
@@ -80,7 +119,7 @@
         android:layout_marginStart="149dp"
         android:layout_marginTop="610dp"
         android:background="@drawable/shape_small"
-        />
+        android:onClick="OpenFirstActivity"/>
 
     <View
         android:id="@+id/ellipse_5"
@@ -91,7 +130,7 @@
         android:layout_marginStart="187dp"
         android:layout_marginTop="610dp"
         android:background="@drawable/shape_small"
-        android:onClick="Open2ndActivity"/>
+        android:onClick="OpenActivity2"/>
 
     <View
         android:id="@+id/ellipse_6"
@@ -101,22 +140,20 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="222dp"
         android:layout_marginTop="610dp"
-        android:background="@drawable/shape_small"
-        android:onClick="Open3rdActivity"/>
+        android:background="@drawable/shape_small" />
 
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="223dp"
-            android:layout_height="36dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="85dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="655dp"
-            android:clipToOutline="true"
-            android:backgroundTint="@drawable/button_background_color"
-            android:elevation="4dp"
-            android:onClick="onClick"
-            android:text="@string/get_started"/>
-
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="223dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="655dp"
+        android:clipToOutline="true"
+        android:backgroundTint="@drawable/button_background_color"
+        android:elevation="4dp"
+        android:onClick="onClick"
+        android:text="@string/get_started"/>
 </RelativeLayout>

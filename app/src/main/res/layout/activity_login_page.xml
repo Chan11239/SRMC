@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/login"
     android:layout_width="410dp"
     android:layout_height="800dp"
     android:clipToOutline="true"
     android:background="#FFFFFF">
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="144dp"
+        android:layout_height="151dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-46dp"
+        android:layout_marginTop="-6dp"
+        android:background="@drawable/shape" />
+
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="153dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="-61dp"
+        android:background="@drawable/shape" />
 
     <View
         android:id="@+id/logo_white"
@@ -74,14 +95,13 @@
         android:layout_width="99dp"
         android:layout_height="37dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="157dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="157dp"
         android:layout_marginTop="487dp"
-        android:clipToOutline="true"
-        android:background="#0BA388"
+        android:backgroundTint="@drawable/button_background_color"
         android:elevation="4dp"
         android:onClick="click_login"
-        android:text="Login"/>
+        android:text="Sign In" />
 
 
 </RelativeLayout>

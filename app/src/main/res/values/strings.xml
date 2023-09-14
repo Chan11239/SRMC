@@ -41,6 +41,71 @@
     </style>
     <!-- strings.xml -->
     <string name="forgot_pass">
-Forgot Password
-</string>
+        Forgot Password
+    </string>
+
+    <style name="how_to_use_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FCFEFE</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="how_to_use_">
+        How to Use Our App?
+    </string>
+
+    <style name="visit_the_c">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#A3001C</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="visit_the_c">
+        Visit the Clinic Website\nAccess the official clinic website at [website URL].\nAccount Creation\nFill out the required registration form with accurate personal \ninformation.\n Account Verification\nClick on the link to verify your email and activate your account.\nLog In to Your Account\nReturn to the clinic website or using the application you can log in\n using your email and password.\nAppointment Booking\nAfter logging in, select the "Book Appointment" option from your \naccount dashboard.\n\n
+    </string>
+
+    <style name="faqs">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FCFEFE</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="faqs">
+        FAQs
+    </string>
+
+    <style name="the_sto_ros">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="the_sto_ros">
+        The Sto. Rosario Multispecialty Clinic application \nis a mobile or web-based platform designed to facilitate \nvarious healthcare-related services offered by our clinic.\nFor web access, you can visit our website and access the \napplication from there. \n\nThe app allows you to schedule appointments with\n our healthcare providers, access your medical records,\nview test results, request prescription refills, and \nreceive important clinic updates and announcements.\n
+    </string>
+
+    <style name="u">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="u">
+        U
+    </string>
+
+    <style name="welcome_use">
+        <item name="android:fontFamily">@font/stylish</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="welcome_use">
+        Welcome User!
+    </string>
+
+    <style name="start_your_">
+        <item name="android:fontFamily">@font/stylish</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="start_your_">
+        Start your wellness journey today
+    </string>
 </resources>

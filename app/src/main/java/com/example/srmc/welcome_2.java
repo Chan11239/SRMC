@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class welcome_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_welcome2);
 
         Button button = (Button) findViewById(R.id.button2);
 
@@ -27,23 +27,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void Open2ndActivity(View view)
-    {
-        Intent intent = new Intent(this, welcome_2.class);
-        startActivity(intent);
-    }
-    public void Open3rdActivity(View view)
+    public void OpenThirdActivity(View view)
     {
         Intent intent = new Intent(this, welcome_3.class);
         startActivity(intent);
+//        overridePendingTransition(R.anim.slide_right,
+//                R.anim.slide_left);
     }
-    // when the user pressed back button this function
-    // get invoked automatically.
-    @Override
-    public void onBackPressed()
+    public void OpenMainActivity(View view)
     {
-        super.onBackPressed();
-        overridePendingTransition(R.anim.slide_left,
-                R.anim.slide_right);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+//        overridePendingTransition(R.anim.slide_right,
+//                R.anim.slide_left);
     }
 }
