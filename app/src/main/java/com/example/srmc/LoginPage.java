@@ -47,9 +47,9 @@ public class LoginPage extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 AttemptLogin attemptLogin= new AttemptLogin();
                 attemptLogin.execute(editEmail.getText().toString(),editPassword.getText().toString(),"");
-                Toast.makeText(getApplicationContext(), "Login", Toast.LENGTH_LONG).show();
-//                Intent intent = new Intent(getApplicationContext(), LoginPage.class);
-//                startActivity(intent);
+//                Toast.makeText(getApplicationContext(), "Login", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(getApplicationContext(), home_page.class);
+                startActivity(intent);
             }
         });
     }

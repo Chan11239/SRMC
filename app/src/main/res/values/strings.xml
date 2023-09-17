@@ -108,4 +108,93 @@
     <string name="start_your_">
         Start your wellness journey today
     </string>
+
+    <style name="home">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="home">
+Home
+</string>
+
+    <style name="whats_new_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="whats_new_">
+Whats New?\n
+</string>
+
+    <style name="telemed_">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="telemed_">
+        Telemed!
+    </string>
+
+    <style name="vaccines_ar">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="vaccines_ar">
+Vaccines ARE AVAILABLE!
+</string>
+
+    <style name="measles_mum">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="measles_mum">
+Measles, Mumps and Rubella (MMR) vaccine \nPolio vaccine\nAnti Tetanus, \nDiphtheria, and more...
+</string>
+
+    <style name="visit_our_w">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="visit_our_w">
+Visit our web page for more info!
+</string>
+
+    <style name="insert_webs">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="insert_webs">
+\u00E2\u0080\u009Cinsert website link\u00E2\u0080\u009D
+</string>
+
+    <style name="are_service">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="are_service">
+are services conducted via telecommunications technology, such as video calls, phone calls, or secure messaging.
+</string>
+    <style name="activities">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="activities">
+        Activities
+    </string>
+
+    <style name="vaccine">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#A3001C</item>
+    </style>
+    <!-- strings.xml -->
+    <string name="vaccine">
+Vaccine
+</string>
 </resources>

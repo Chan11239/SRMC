@@ -6,6 +6,163 @@
     android:layout_height="800dp"
     android:clipToOutline="true"
     android:background="#FFFFFF">
+    <RelativeLayout
+        android:id="@+id/logo_white"
+        android:layout_width="409dp"
+        android:layout_height="529dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="252dp">
+
+        <TextView
+            android:id="@+id/whats_new_"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="123dp"
+            android:layout_marginLeft="23dp"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:text="@string/whats_new_"
+            android:textAppearance="@style/whats_new_" />
+
+        <RelativeLayout
+            android:id="@+id/frame_2"
+            android:layout_width="334dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="158dp"
+            android:background="@drawable/frame_3"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/telemed_"
+                android:layout_width="79dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="11dp"
+                android:gravity="top"
+                android:text="@string/telemed_"
+                android:textAppearance="@style/telemed_" />
+
+            <TextView
+                android:id="@+id/are_service"
+                android:layout_width="293dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="37dp"
+                android:gravity="top"
+                android:text="@string/are_service"
+                android:textAppearance="@style/are_service" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_3"
+            android:layout_width="334dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="275dp"
+            android:background="@drawable/frame_4"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/vaccines_ar"
+                android:layout_width="207dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="12dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="11dp"
+                android:text="@string/vaccines_ar"
+                android:textAppearance="@style/vaccines_ar"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/measles_mum"
+                android:layout_width="298dp"
+                android:layout_height="69dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="41dp"
+                android:text="@string/measles_mum"
+                android:textAppearance="@style/measles_mum"
+                android:gravity="top"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_5"
+            android:layout_width="334dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="393dp"
+            android:background="@drawable/frame_5"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/visit_our_w"
+                android:layout_width="182dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="9dp"
+                android:text="@string/visit_our_w"
+                android:textAppearance="@style/visit_our_w"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/insert_webs"
+                android:layout_width="133dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="89dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="24dp"
+                android:text="@string/insert_webs"
+                android:textAppearance="@style/insert_webs"
+                android:gravity="top"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="199dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rectangle_1"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rectangle_1"
+            android:layout_width="199dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="62dp"
+            android:background="@drawable/rectangle_1">
+            <TextView
+                android:id="@+id/vaccine"
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="6dp"
+                android:gravity="top"
+                android:text="@string/vaccine"
+                android:textAppearance="@style/vaccine" />
+        </RelativeLayout>
+
+    </RelativeLayout>
 
     <View
         android:id="@+id/ellipse_1"
@@ -50,19 +207,19 @@
         android:gravity="top"
         />
 
-        <EditText
-            android:id="@+id/search_bar"
-            android:layout_width="127dp"
-            android:layout_height="24dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="212dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="54dp"
-            android:clipToOutline="true"
-            android:background="@drawable/search_bar"
-            android:ems="10"
-            android:inputType="text"
-            android:Hint="Name" />
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="127dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/search_bar"
+        android:clipToOutline="true"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="text" />
 
     <TextView
         android:id="@+id/welcome_use"
@@ -90,14 +247,7 @@
         android:gravity="top"
         />
 
-    <View
-        android:id="@+id/untitled_de"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="5dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="132dp"
-        android:background="@drawable/untitled_de"
-        />
+
+
+
 </RelativeLayout>
